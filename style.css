@@ -213,42 +213,29 @@ h2:first-child{
 h3{
 	font-size:4.5625rem;
 	text-transform:uppercase;
-	margin-bottom:80px;
 }
-.flex{
-	display:flex;
-	width:63.1661442006%;
-	margin:0 auto;
-	width:100%;
-
+table{
+	border-collapse:separate;
+	border-spacing:9px;
+	margin-top:-5.2%;
 }
-figure{
-	font-size:1.16875rem;
+table tr:first-child{
 	text-align:center;
-	margin-left:2%;
-	width:25.902864259%;
-	
-	
 }
-.flex figure:first-child figcaption{
-	transform:translateY(-17%);
-	position:relative;
-	z-index:-20;
-	
+table tr:first-child td:first-child{
+	transform:translateY(11%);
 }
-.flex figure:nth-child(2) figcaption{
-	transform:translateY(2%);
-}
-.flex figure:nth-child(3) figcaption{
-	transform:translateY(-2%);
-}
-figcaption p:first-of-type{
-	font-size:1.66666666667rem;
-	padding:20px;
-}
-figcaption{
+table tr:last-child{
 	background:#594aaf;
-	
-	
-	
+}
+
+table tr:last-child td p{
+	margin:29px 17px 29px;
+}
+table tr:last-child td p:first-of-type{
+	text-align:center;
+	font-size:1.41666666667rem;
+}
+table tr:last-child td p:last-of-type{
+	font-size:1.16666666667rem;
 }
