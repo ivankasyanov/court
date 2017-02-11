@@ -239,3 +239,26 @@ table tr:last-child td p:first-of-type{
 table tr:last-child td p:last-of-type{
 	font-size:1.16666666667rem;
 }
+#list4{
+	width:63.1661442006%;
+	margin:0 auto;
+	background:url(image/photo_back.png) no-repeat;
+	background-size:cover;
+
+	
+}
+h4{
+	font-size:4.655rem;
+	text-align:right;
+}
+figure{
+	display:flex;
+}
+figure:nth-child(3){
+	flex-direction:row-reverse;
+}
+figure:before{
+	
+				/*background:rgba(88,73,174,.6); цвет синенький прозрачный */
+}
+
