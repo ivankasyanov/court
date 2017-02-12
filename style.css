@@ -240,25 +240,58 @@ table tr:last-child td p:last-of-type{
 	font-size:1.16666666667rem;
 }
 #list4{
-	width:63.1661442006%;
-	margin:0 auto;
-	background:url(image/photo_back.png) no-repeat;
-	background-size:cover;
-
 	
+	
+	background:url(image/photo_back.png) no-repeat ;
+	background-size:100% auto;
+	min-height:694px;
+	
+	
+}
+.list4{
+	margin:0 auto;
+	width:63.1661442006%;
 }
 h4{
 	font-size:4.655rem;
 	text-align:right;
 }
 figure{
-	display:flex;
+	clear:both;
+	
 }
 figure:nth-child(3){
-	flex-direction:row-reverse;
+	text-align:right;
 }
-figure:before{
-	
-				/*background:rgba(88,73,174,.6); цвет синенький прозрачный */
+figure img{
+	float:left;
+	position:relative;
+	z-index:3;
+}
+figcaption{
+	position:relative;
+	z-index:3;
+	padding-top:23px; /* задавал приблизительно */
+}
+figure:nth-child(3) img{
+	transform:scaleX(-1);
+	float:right;
 }
 
+figure:before{
+	content:'';
+	display:block;
+	position:absolute;
+	background:rgba(88,73,174,.6);			
+	width:50.4320502749%;
+	height:160px;
+	z-index:2;
+	transform:skewX(-20deg);
+	right:31%;
+	
+	/*background:rgba(88,73,174,.6); цвет синенький прозрачный */
+}
+figure:nth-child(3):before{
+	transform:skewX(20deg);
+	
+}
