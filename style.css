@@ -18,8 +18,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body{
 	background:linear-gradient(to bottom, #000001,#351952);
-	height:3431px;
+	height:100%;
 	color:#fff;
+	
 }
 form{
 	float:right;
@@ -268,30 +269,49 @@ figure img{
 	position:relative;
 	z-index:3;
 }
-figcaption{
+#list4 figcaption{
 	position:relative;
 	z-index:3;
-	padding-top:23px; /* задавал приблизительно */
+	padding:23px 25%; /* задавал приблизительно */
+	font-size:1.1rem;
+	
 }
 figure:nth-child(3) img{
 	transform:scaleX(-1);
 	float:right;
 }
 
-figure:before{
+#list4 figure:before{
 	content:'';
 	display:block;
 	position:absolute;
-	background:rgba(88,73,174,.6);			
+	background:rgba(74,77,175,.74);			
 	width:50.4320502749%;
 	height:160px;
 	z-index:2;
 	transform:skewX(-20deg);
-	right:31%;
+	right:27%;
 	
 	/*background:rgba(88,73,174,.6); цвет синенький прозрачный */
 }
 figure:nth-child(3):before{
 	transform:skewX(20deg);
-	
+	left:27%;
 }
+#list5{
+	position:relative;
+	height:764px; /* задать проценты */
+}
+h5{
+	font-size:4.655rem;
+	text-transform:upper-case;
+}
+.list5{
+	width:50.4320502749%;
+	margin:0 auto;
+}
+iframe{
+	position:absolute;
+	height:514px;
+	width:100%;
+	bottom:0;}
