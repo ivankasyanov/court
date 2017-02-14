@@ -26,6 +26,23 @@ form{
 	float:right;
 	margin:11px 15% 14px;
 }
+form input{
+	height:2.8125rem;
+	background-color:transparent;
+	color:#fff;
+	text-align:center;
+	font-weight:900;
+	border-color:#8a6d4c;
+}
+form button{
+	height:35px;
+	border:none;
+	background-color:#8a6d4c;
+	color:#fff;
+	font-size:1.6875rem;
+	font-weight:100;
+	text-transform:lowercase;
+}
 nav{	
 	clear:both;
 	height:73px;
@@ -306,13 +323,12 @@ figure:nth-child(3):before{
 }
 h5{
 	font-size:4.655rem;
-	text-transform:upper-case;
+	text-transform:uppercase;
 	clear:both;
 }
 h5:after{
 	content:url(image/map.png);
 	display:block;
-	
 }
 
 
