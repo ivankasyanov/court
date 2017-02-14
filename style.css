@@ -299,19 +299,21 @@ figure:nth-child(3):before{
 	left:27%;
 }
 #list5{
-	position:relative;
+	/* width:50.4320502749%; 
+	margin:0 auto;*/
 	height:764px; /* задать проценты */
+	position:relative;
 }
 h5{
 	font-size:4.655rem;
 	text-transform:upper-case;
+	clear:both;
 }
-.list5{
-	width:50.4320502749%;
-	margin:0 auto;
+h5:after{
+	content:url(image/map.png);
+	display:block;
+	
 }
-iframe{
-	position:absolute;
-	height:514px;
-	width:100%;
-	bottom:0;}
+
+
+
